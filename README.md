@@ -8,4 +8,4 @@ Briefly, background Corrected beta-values, methylation signals, and detection p-
 
 2. 02_bkgdcor_QC_CpGassoc.R - Samples with probe detection call rates <90% and those with an average intensity value of either <50% of the experiment-wide sample mean or <2,000 arbitrary units (AU) are excluded. Data points with probe detection p-values >0.001 are set to missing, and CpG sites with missing data for >10% of samples are excluded from analysis.  
 
-3. 03_bkgdcor_beta_BMIQ_bySample.R - Probes that cross hybridize between autosomes and sex chromosomes (Chen 2013) are removed and Beta Mixture Quantile Normalization (BMIQ) is run.
+3. 03_bkgdcor_beta_BMIQ_bySample.R - Probes that cross hybridize between autosomes and sex chromosomes (Chen 2013) are removed and [Beta Mixture Quantile Normalization (BMIQ)](https://academic.oup.com/bioinformatics/article/29/2/189/204142) is run.
